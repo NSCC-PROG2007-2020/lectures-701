@@ -4,7 +4,7 @@ int main() {
 
     int num;
 
-    num = 1000000;
+    num = 123456;
 
     printf("num = %i\n", num);
 
