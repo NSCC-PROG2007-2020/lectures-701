@@ -3,4 +3,5 @@ project(datatypes C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(datatypes main.c)
+add_executable(datatypes datatypes/main.c)
+add_executable(celsius celsius/main.c)
