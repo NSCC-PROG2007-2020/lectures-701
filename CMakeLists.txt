@@ -12,3 +12,4 @@ add_executable(evenly_divisible intro/evenly_divisible/main.c)
 add_executable(conversions intro/conversions/main.c)
 
 add_executable(triangular loops/triangular/main.c)
+add_executable(squares loops/squares/main.c)
