@@ -13,3 +13,4 @@ add_executable(conversions intro/conversions/main.c)
 
 add_executable(triangular loops/triangular/main.c)
 add_executable(squares loops/squares/main.c)
+add_executable(digit_sum loops/digit_sum/main.c)
