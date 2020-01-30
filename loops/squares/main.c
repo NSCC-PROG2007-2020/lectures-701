@@ -9,8 +9,8 @@ int main() {
 
     printf("  n    n^2\n");
     printf("-----|-----\n");
-    for (int n = 1; n <= 10; n++) {
-        printf("%3i  |%4i\n", n, n*n);
+    for (int n = 1, square = n * n; n <= 10; n++, square = n * n) {
+        printf("%3i  |%4i\n", n, square);
     }
 
     return 0;
