@@ -14,14 +14,19 @@ int main() {
     printf("Enter an integer: ");
     scanf("%i", &num);
 
+    /* determine the largest place holder */
+    int largest_place_holder = 1;
+    for (int n = num / 10; n > 0; n /= 10) {
+        largest_place_holder *= 10;
+    }
+
     int digit = 0;
     int sum = 0;
-    while (num > 0) {
-        /* adding the digits to sum */
-        /* printf("digit=%i, sum=%i, num=%i\n", digit, sum, num); */
-        digit = num % PLACE_HOLDER;
+    for (int place_holder = largest_place_holder;
+            place_holder > 0; place_holder /= 10) {
+        digit = num / place_holder;
         sum += digit;
-        num /= PLACE_HOLDER;
+        num -= digit * place_holder;
         printf("%i ", digit);
     }
     printf(" = %i\n", sum);

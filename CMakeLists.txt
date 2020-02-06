@@ -14,3 +14,11 @@ add_executable(conversions intro/conversions/main.c)
 add_executable(triangular loops/triangular/main.c)
 add_executable(squares loops/squares/main.c)
 add_executable(digit_sum loops/digit_sum/main.c)
+add_executable(incrementer loops/incrementer/main.c)
+
+add_executable(simple_decisions decisions/simple_decisions/main.c)
+add_executable(divisible decisions/evenly_divisible/main.c)
+add_executable(calculator decisions/calculator/main.c)
+
+add_executable(simple_arrays arrays/simple_arrays/main.c)
+add_executable(simple_strings arrays/simple_strings/main.c)
