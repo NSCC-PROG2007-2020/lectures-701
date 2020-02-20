@@ -22,3 +22,8 @@ add_executable(calculator decisions/calculator/main.c)
 
 add_executable(simple_arrays arrays/simple_arrays/main.c)
 add_executable(simple_strings arrays/simple_strings/main.c)
+
+add_executable(math_functions functions/math_functions/main.c)
+add_executable(scope functions/scope/main.c)
+add_executable(static functions/static/main.c)
+add_executable(array_functions functions/arrays/main.c)
