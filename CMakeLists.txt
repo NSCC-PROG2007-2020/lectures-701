@@ -27,3 +27,6 @@ add_executable(math_functions functions/math_functions/main.c)
 add_executable(scope functions/scope/main.c)
 add_executable(static functions/static/main.c)
 add_executable(array_functions functions/arrays/main.c)
+
+add_executable(simple_pointer pointers/simple_pointer/main.c)
+add_executable(datetime structures/datetime/main.c)
