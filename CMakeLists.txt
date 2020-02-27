@@ -30,3 +30,6 @@ add_executable(array_functions functions/arrays/main.c)
 
 add_executable(simple_pointer pointers/simple_pointer/main.c)
 add_executable(datetime structures/datetime/main.c)
+
+add_executable(string_functions strings/string_functions/main.c)
+add_executable(substrings strings/substrings/main.c)
