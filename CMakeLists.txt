@@ -33,3 +33,8 @@ add_executable(datetime structures/datetime/main.c)
 
 add_executable(string_functions strings/string_functions/main.c)
 add_executable(substrings strings/substrings/main.c)
+
+add_executable(simple_malloc memory/simple_malloc/main.c)
+add_executable(simple_array memory/simple_array/main.c)
+add_executable(complex_array memory/complex_array/main.c)
+add_executable(linked_list memory/linked_list/main.c)
